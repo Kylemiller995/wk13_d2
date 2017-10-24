@@ -1,0 +1,23 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "cd server && nodemon server.js",
+    "webpack": "cd client && webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
